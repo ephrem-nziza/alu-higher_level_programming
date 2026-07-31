@@ -19,6 +19,21 @@ Using MyList
 >>> print(my_list)
 [1, 4, 2, 3, 5]
 
+Not sorted append with a negative number
+-----------------------------------------
+
+>>> neg_list = MyList()
+>>> neg_list.append(7)
+>>> neg_list.append(-3)
+>>> neg_list.append(0)
+>>> neg_list.append(-10)
+>>> print(neg_list)
+[7, -3, 0, -10]
+>>> neg_list.print_sorted()
+[-10, -3, 0, 7]
+>>> print(neg_list)
+[7, -3, 0, -10]
+
 Empty list
 ----------
 
